@@ -1,0 +1,26 @@
+@import './variables';
+
+@font-face {
+  font-family: 'Cassandra';
+  src: url('../assets/fonts/Cassandra Personal Use.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+body {
+  font-weight: bold;
+  font-family: 'Cassandra';
+  font-size: 45px;
+  text-align: center;
+}
+
+div.image {
+  background-image: url('../assets/images/marketplace.svg');
+  background-size: cover;
+}
+
+.image {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+}
